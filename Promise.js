@@ -1,6 +1,6 @@
 const myLongRunningFn = () => {
     return new Promise((resolve, reject) => {
-        set Timeout (() => {
+        setTimeout (() => {
             if (Math.random() < 0.5) {
                 resolve('success!');
             } else {
